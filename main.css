@@ -1,0 +1,19 @@
+.todo-description {
+    padding: 5px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.todo-box:checked + .todo-description {
+    background: #dddddd;
+    text-decoration: line-through;
+}
+
+#add {
+    padding: 8px 14px;
+    font-weight: bold;
+    color:blueviolet;
+    background: #0db5df;
+    cursor: pointer;
+
+}
