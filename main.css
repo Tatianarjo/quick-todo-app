@@ -1,10 +1,10 @@
-.todo-description {
+.item-description {
     padding: 5px;
     width: 200px;
     margin-bottom: 10px;
 }
 
-.todo-box:checked + .todo-description {
+.item-completed:checked + .item-description {
     background: #dddddd;
     text-decoration: line-through;
 }

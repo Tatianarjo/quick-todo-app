@@ -8,12 +8,13 @@
 </head>
 <body>
     <h1>The Quick To-Do List</h1>
-    <div id="items">
-        <div class="items">
-            <input type="checkbox"class="todo-box"/>
-            <input type="text" class="todo-description" placeholder="What Do We Get To-Do?">
+    <div id="items"></div>
+    <template id="itemTemplate">
+        <div class="item">
+            <input type="checkbox"class="item-completed"/>
+            <input type="text" class="item-description" placeholder="What Do We Get To-Do?">
         </div>
-    </div>
+    </template>
     <button id="add">Add Items</button>
     
     <script src="main.js" defer></script>
